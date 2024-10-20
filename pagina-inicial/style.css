@@ -1,0 +1,89 @@
+header {
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.botão-1 {
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(150, 150, 150);
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.botão-2 {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(150, 150, 150);
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-left: 5px;
+    background-color: rgb(2, 131, 236);
+    color: white;
+}
+.botão-1:hover {
+    background-color: rgba(150, 150, 150, 0.1)
+}
+.botão-2:hover {
+    background-color: rgb(0, 105, 190);
+}
+section {
+    display: flex;
+}
+.bloco_1 {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloco_2 {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section div {
+    width: 1000px;
+    height: 1000px;
+}
+section div img {
+    width:500px;
+}
+section div div {
+    width: 500px;
+    height: 372px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px;
+}
+section div div h1 {
+    font-size:50px;
+    margin: 0;
+}
+section div div p {
+    font-size:25px;
+    margin: 0;
+}
