@@ -13,6 +13,7 @@ div {
     width: 500px;
     display: flex;
     margin: 5px;
+    border-radius: 10px;
 }
 div li {
     height: 5px;
